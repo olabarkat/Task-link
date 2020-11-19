@@ -1,0 +1,43 @@
+h1{
+    font-size: 40px;
+    margin: 30px 0px 30px 0px;
+    font-weight: 500;
+  }
+ .example-card {
+        max-width: 340px;
+        margin: 20px;
+        border-radius: 3px;
+     
+  
+ }
+ .datanews{
+     display: contents;
+ }
+   img{
+       height: 40%;
+   }
+   mat-icon{
+       color: #8dc043;
+   }   
+  .btnicon{
+      float: right;
+  }   
+  .content{
+      color: #888a8f;
+  }
+
+  h2{    font-size: 22px;}
+   .time{
+       display: flex;
+       p{
+          color: #797979;
+          margin:0px 0px 0px 10px;
+          font-weight: 580;
+               }
+   }   
+   @media(max-width:768px) {
+    .example-card {
+       
+        height: 100%;
+ }
+   }

@@ -1,0 +1,39 @@
+*{
+    color: white;
+}
+.FEATURES {  
+      background: url("../../../assets/images/photoo1.jpeg")no-repeat;
+    padding: 100px 0;
+    text-align: center;
+   h1{
+       font-size: 40px;
+       font-weight: 450;
+   }
+   h3{
+    font-size: 23px;
+   }
+    .title {
+       text-align: center;
+       margin-bottom: 40px;
+    }
+    ul{
+        list-style: none;
+        transform: rotate(314deg);
+        padding: 0px;
+    }
+   mat-icon{
+       font-size:20px;
+   }
+    ul li{
+        margin: 30px 0px 30px 0px;
+        font-size: 20px;
+    }
+    .data{ margin: 45px;
+        border: 2px solid white;
+        transform: rotate(45deg);
+    }
+    .data:hover{
+        background-color: #8eb549;
+  
+}
+}

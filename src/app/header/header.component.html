@@ -1,0 +1,139 @@
+<div *ngIf="showme" id="menu" class="col-12 col-md-6  ">
+  <div class="col-2">
+    <ul class="icon">
+      <li><img src="../../assets/images/twitter.svg" alt=""></li>
+      <li> <img src="../../assets/images/facebook.svg" alt=""></li>
+      <li> <img src="../../assets/images/linkedin.svg" alt=""></li>
+      <li> <img src="../../assets/images/youtub.svg" alt=""></li>
+      <li> <img src="../../assets/images/instagram.svg" alt=""></li>
+    </ul>
+  </div>
+  <div class="col-6">
+    <ul>
+      <li>
+        <h2 routerLink="/home">Home</h2>
+      </li>
+      <br>
+      <li>
+        <h2 routerLink="/home" style=" color: #8dc043;">Home</h2>
+      </li>
+      <li>
+        <h2>About</h2>
+      </li>
+      <li>
+        <h4>Who are us</h4>
+      </li>
+      <li>
+        <h4>Why us ?</h4>
+      </li>
+      <br>
+      <li>
+        <h2 routerLink="/News">News</h2>
+      </li>
+      <li>
+        <h4 routerLink="/News">News</h4>
+      </li>
+      <li>
+        <h4>Events</h4>
+      </li>
+      <br>
+      <li>
+        <h2>Careers</h2>
+      </li>
+      <li>
+        <h4>Opportunities</h4>
+      </li>
+
+      <li class="contact">
+        <h2>Contact Us</h2>
+      </li>
+      <li>
+        <h2 routerLink="/NewsDetails">Site Map </h2>
+      </li>
+
+
+
+
+    </ul>
+  </div>
+
+
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="header" [ngClass]="{ Ar: language == 'ar' }">
+  <div class="container">
+    <div class="row">
+      <div class="col-6" style="display: flex;">
+        <button (click)="toogleTag()" style="border: none;
+     background: #068997;  position: absolute;">
+          <mat-icon style="margin-top:15px">notes</mat-icon>
+        </button>
+
+        
+        <a class="navbar-brand" [ngxScrollTo]="'#banner'" routerLink="home">
+          <img style="margin-left: 50px;" src="../../assets/images/logo.png" alt="" />
+        </a>
+      </div>
+     <div class="col-4"></div>
+      <div class="col-2">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#"><mat-icon  aria-hidden="false" aria-label="Example home icon">search</mat-icon> <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">  <mat-icon aria-hidden="false" aria-label="Example home icon">  notifications_none  </mat-icon></a>
+            <a class="nav-link" href="#">  <mat-icon  aria-hidden="false" aria-label="Example home icon"> account_circle   </mat-icon> </a>
+            <a  style="    width: max-content;
+            margin-top: 10px;" href=""><p>user name</p></a>
+            <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> <mat-icon>settings</mat-icon></a> -->
+            <button style="border: none;
+            background: #068997; " mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+              <mat-icon>settings</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+              <ul class="list">
+                <li>  <span class="lag">Language</span></li>
+                <li> <span class="item">English</span></li>
+                <li>  <span class="item">اللغه العربيه</span></li>
+              </ul>
+
+              <ul class="list">
+                <li>    <span class="lag">Font Size</span></li>
+                <li>  <span style="font-size: 22px; margin-right: 15px;">A</span>  <span class="font">A</span > <span>A</span></li>
+              
+              </ul>
+              <ul>
+                <li><span class="lag">Account</span></li>
+                <li> <span>Sign Out</span></li>
+              </ul>
+              
+            </mat-menu>
+            
+          </div>
+        </div>
+        <!-- <ul class="listicon">
+          <li>
+            <mat-icon aria-hidden="false" aria-label="Example home icon">search</mat-icon>
+          </li>
+          <li>
+            <mat-icon aria-hidden="false" aria-label="Example home icon"> notifications_none </mat-icon>
+          </li>
+          <li>
+            <mat-icon aria-hidden="false" aria-label="Example home icon"> account_circle </mat-icon>
+          </li>
+          <li style="color: white;">username</li>
+          <li>
+            <mat-icon>settings</mat-icon>
+          </li>
+        </ul> -->
+      </div>
+
+      <!-- <mat-icon class="icon" aria-hidden="false" aria-label="Example home icon">search</mat-icon>
+      <mat-icon class="icon" aria-hidden="false" aria-label="Example home icon">  notifications_none  </mat-icon>
+        <mat-icon  aria-hidden="false" aria-label="Example home icon"> account_circle   </mat-icon><p style="margin-top: 12px;">username</p> -->
+    </div>
+  </div>
+  <br>
+
+
+</nav>

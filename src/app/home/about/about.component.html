@@ -1,0 +1,44 @@
+<section class="About">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 abouttitle" style=" display:contents">
+                <div class="col-6">  <h1>Latest News</h1></div>
+                <div class="col-6">
+                    <p style="  cursor: pointer;  float: right;
+                    margin: 30px 0px 30px 0px;
+                    color: #8dc043;    display: inline-flex;"  routerLink="/News"> View ALL<mat-icon style="margin-top:-3px;">arrow_right_alt</mat-icon>
+                    </p>
+                </div>
+                    
+            </div>
+            <div class="datanews" *ngIf="Newsdata">
+                <mat-card class="col-10 col-md-4 col-lg-3.4 example-card" *ngFor="let news of Newsdata; let i = index;">
+
+                    <img mat-card-image src={{news.urlToImage}}>
+                    <mat-card-actions>
+                        <mat-icon class="btnicon">share</mat-icon>
+                        <mat-icon class="btnicon">favorite_border</mat-icon>
+                    </mat-card-actions>
+                    <mat-card-content>
+                        <h2>
+                            {{news.title}}
+                        </h2>
+                        <p class="content">  {{news.content}}</p>
+                    </mat-card-content>
+      <div class="time"><mat-icon>today</mat-icon> <p> {{news.publishedAt}}</p> </div>
+  <br>
+                </mat-card>
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</section>

@@ -1,0 +1,104 @@
+{
+    "header": {
+        "AboutUs": "About Us",
+        "Features": "Features",
+        "Services": "Services",
+        "Pricing": "Pricing",
+        "ContactUs": "Contact Us",
+        "terms": "Terms and conditions",
+        "lang": "EN"
+    },
+    "banner": {
+        "title": {
+            "part1": "Your Payments Universe",
+            "part2": "Tailored for Growth"
+        },
+        "description": "Track, monitor and manage your customer’s payments and get realtime data on your inventory, transactions and customer payment behaviour.",
+        "startPayment": "Start Payment"
+    },
+    "About": {
+        "title": "About Dafa3ny",
+        "description": "With the recent boom in e-commerce , it has become imperative to resort to safe payment methods and protect the rights of both the merchant and the customer"
+    },
+    "FEATURES": {
+        "DAFA3NYFEATURES": "DAFA3NY FEATURES",
+        "ONLINEGATEWAYS": {
+            "title": "ONLINE GATEWAYS",
+            "description": "customize your experience with integrated online checkouts Direct integrations and Accept’s -commerce plugins give you full control over your customer experience online and in-app, making it easy for unique and repeat customers to complete their purchases. With iFrames and native forms, payment details are securely entered irectly to our server without your customers ever leaving your site."
+        },
+        "INVOICES": {
+            "title": "INVOICES",
+            "description": "instant payments through customizable and personalized invoices Create unique checkout links for special orders or one-time transactions and make your customers feel valued. Take payments to your customer’s preferred communication channel and speed up the payment process by skipping their trip to the bank. Creating an invoice takes less than 30 seconds and makes sure you an still track all your payments in one place."
+        }
+    },
+    "PAYMENTMETHODS": {
+        "title": "DAFA3NY ACCEPT ALL PAYMENT METHODS",
+        "description": "Give your customer the freedom to choose ANY payment method they prefer; from credit/debit cards and mobile cash to scanning a QR code.",
+        "partners": "DAFA3NY Partners"
+    },
+    "checkout": {
+        "title": "  Create seamless checkout experiences for your customers even without a website",
+        "Fastintegration": "Fast integration",
+        "Createsimple": "  Create simple , fast, and optimized payment forms for all ",
+        "browsers": " browsers and mobile devices with just a few lines of code .",
+        "FullControl": "Full Control",
+        "Customize": " Customize your payment forms to suit your brand's lppk and feel . "
+    },
+    "pricing": {
+        "Createanaccount": "Create an account",
+        "Commissionpertransaction": "Commission per transaction",
+        "Monthlyfees": "Monthly fees",
+        "ProcessingFee": "Processing Fee",
+        "Createfreeaccount": "Create free account",
+        "title": "Dafa3ny Pricing ",
+        "title2": " Suitable for businesses of all sizes.Create an account to enjoy ",
+        "All-in-onepaymentsystem": "All-in-one payment system",
+        "GlobalSaies": "Global Saies",
+        "Smart&User-friendlyDashboard": "Smart& User-friendly Dashboard",
+        "MaximumSecurity": "Maximum Security",
+        "Tokenization": "Tokenization",
+        "MobileSdk": "Mobile Sdk",
+        "Invoicesystem": "Invoice system",
+        "Subscriptionssystem ": "Subscriptions system ",
+        "Detailedinsights": "Detailed insights",
+        "3-Dsecure": "3-D secure",
+        "Easyintegration": "Easy integration"
+    },
+    "contact": {
+        "CONTACTINFO": "CONTACT INFO",
+        "ADDRESS": "ADDRESS",
+        "adderssdetails": "15/38 Zahraa Al Maadi ,No.21,floor no.3",
+        "PHONE": "PHONE",
+        "EMAIL": "EMAIL"
+    },
+    "footer": {
+        "footer": "Copy Right  ©  2020 Accept All Rights Reserved Dafa3ny"
+    },
+    "terms": {
+        "title": "Dafa3ny Terms and conditions :",
+        "part1": "Below are the terms and the conditions for using Dafa3ny as a platform to sell or buy your products or services on Dafa3ny Stores ,Kindly you must read and agree to the Terms and Conditions. By creating account in Dafa3ny, you are accepting the the terms and conditions written here otherwise you are not accepting the terms and the conditions please don't use our website .",
+        "part2": "Please note that this website and its components are offered for informational purposes only; It shall not be responsible or liable for the accuracy, usefulness or availability of any information transmitted or made available via the site, and shall not be responsible or liable for any error.",
+        "part3": "Dafa3ny has the right to use, copy, modify, and disclose any content, trademarks, or product images uploaded by users on the website to a third party. Users are not granted the same license. This site and its original content, features, and functionality are owned by Dafa3ny and are protected by International copyright, trademark, patent, trade secret, and other intellectual properties. Users are only granted the services offered by the website. ",
+        "part4": "Dafa3ny connects the sellers / service providers and the consumers. We aim to give the best shopping experience for both sellers and buyers a chance to sell their products whether it is physical, digital or online service, Sellers can list as much items as they want on their store.The website gets a 3.5%of each sale made from the seller, 5 L.E from the buyer and zero monthly fees from either. Dafa3ny will not be liable for any loss For that, please note that if you are a seller, Dafa3ny will not be liable for a responsibility either for the seller or the buyer :   ",
+        "part5": "If you are a seller Dafa3ny will not liable to you :  ",
+        "listOne": {
+            "option1": "For any any loss of revenue, profits.",
+            "option2": "For business opportunity.",
+            "option3": "any loss to your business reputation."
+        },
+        "part6": "If you are a buyer Dafa3ny will not liable to you :",
+        "listTwo": {
+            "option1": "For the delivery of the purchased products or services.",
+            "option2": "For the products Conditions agreed with the seller."
+        },
+        "part7": "It is your sole responsibility to check product details because Payments are unrefundable. After the purchase and Payment confirmation, Dafa3ny will send emails to the both buyer and seller with the contact information to arrange the delivery.",
+        "part8": "At the same Dafa3ny reputation and credibility is our highest priority , don't hesitate to contact us if you should face any problem from a seller or buyer.        ",
+        "part9": "As a buyer, you can pay for your products via credit card (Through Dafa3ny network) and Cash (through fawry network). As a seller, you can withdraw your money after 10 days-at least- from the payment day. You can withdraw a minimum amount of 500 EGP and for every withdrawal, you have to pay 20 EGP to Dafa3ny.",
+        "part10": "You have to know that money withdrawals happen every Sunday and that all withdrawal requests must be placed before Saturday at 11:59 PM. Any request after this timing will be allocated to the following Sunday. Withdrawals happen through bank transfers only. It’s your sole responsibility as a seller to add your bank account details correct and accurate, and Dafa3ny shall not hold any responsibility against any wrong bank account information",
+        "part11": "Dafa3ny reserves the right to deactivate or delete any buyer account if inactive for a period more than 3 months and have zero transactions",
+        "part12": "Dafa3ny takes the safety of its users very seriously. Thus, we will do our best to continuously make sure the website is safe. However, we do not warrant that the website is free of viruses or other malicious content.",
+        "part13": "The personal information that you provide to us during the process will be kept and used in accordance with our privacy policy.",
+        "part14": "Dafa3ny reserves the right to change the terms and conditions from time to time as it sees fit. If there are any changes, you will be informed via Email. Your continued use of Dafa3ny will signify your acceptance to the adjustment made. Dafa3ny has the right to terminate your account if you violate any of the rules mentioned above. If you have any questions about the terms and conditions, please contact us."
+    }
+
+}

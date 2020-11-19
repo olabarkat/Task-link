@@ -1,0 +1,62 @@
+:host ::ng-deep .abouttitle{
+ display: none !important;
+}
+   nav{
+    margin-bottom: 23px;
+   }
+   ul{
+    list-style: none;
+    display: flex;
+    margin-top: 100px;
+   }
+   .Newssection{
+       background-color: #efefef;
+   }
+   .home{
+       margin-right:20px ;
+       color: rgb(110 183 190);
+   }
+   li:active{
+       color: rgb(199 199 199);
+   }
+   mat-icon{
+       font-size: 20px;
+   }
+   .News{
+    font-size: 40px;
+display: block !important;
+    font-weight: 500;
+  }
+  mat-form-field{
+      margin-right: 10px;
+  }
+  :host::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+
+    background: white !important;
+    border: none !important;
+}
+:host::ng-deep .mat-form-field-prefix .mat-icon-button, .mat-form-field-suffix .mat-icon-button {
+    color: #8dc043 !important;
+  }
+  .search{
+      
+
+    background: #8dc043;
+    color: white;
+    margin-left: -11px;
+  }
+  .paginatemenu{
+    margin: 40px;
+    justify-content: center
+  }
+  .page-item.active .page-link {
+    background-color: #8dc043 !important;
+    border-color: #8dc043 !important;
+  }
+.page-link {
+    color: black;
+}
+.paginatemenu li{
+    margin: 5px;
+    border-radius: 2px;
+}
